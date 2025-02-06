@@ -1,0 +1,126 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+   background-color:  rgb(69, 130, 199);
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container{
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0 4px white(0, 0, 0,0.1);
+    border-radius: 10px;
+    padding: 15px;
+    border: 3px solid white;
+    background-color: #f9f9f9;
+    /* height: 50vh; */
+    
+}
+
+..user{
+    display: block;
+    width: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px; 
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.btn{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(66,103,178);
+    border-color: rgb(66,103,178);
+    color: #f9f9f9;
+}
+.login{
+    margin: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+    
+a:hover {
+    color: blue;
+}
+
+}
+
+.face{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color:rgb(67,96,156);
+    color: #f9f9f9;
+    border-color: rgb(67,96,156);
+    position: relative;
+    
+}
+.goog{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color:#ffffff;
+    color:gray;
+    border-color: rgb(221, 218, 218);
+    position: relative;
+
+}
+h1{ 
+   text-align: center;
+}
+i{
+    position: absolute;
+    left: 20px;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+.or-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    font-size: 1    2px;
+    margin: 10px auto;
+}
+.or-container div{
+    border-bottom: 1px solid #777;
+    width: 45%;
+}
